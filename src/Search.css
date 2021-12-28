@@ -1,7 +1,12 @@
-.Search-header {
+.Search{
     background-color: #282c34;
     min-height: 100vh;
     display: flex;
+  }
+
+.Search-header {
+    background-color: #282c34;
+    min-height: 10vh;
     flex-direction: column;
     align-items: center;
     justify-content: top;
@@ -9,3 +14,22 @@
     color: white;
   }
   
+  .Search-body {
+    background-color: #282c34;
+    min-height: 1vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .Footer {
+    background-color: #282c34;
+    min-height: 1vh;
+    display: flex;
+    flex-direction: end;
+    justify-content: end;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
