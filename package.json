@@ -10,6 +10,8 @@
   "license": "MIT",
   "dependencies": {
     "cornerstone-core": "^2.6.1",
+    "cornerstone-tools": "^6.0.6",
+    "cornerstone-wado-image-loader": "^4.1.1",
     "nodemon": "^2.0.15"
   }
 }
