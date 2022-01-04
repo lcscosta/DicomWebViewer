@@ -1,13 +1,15 @@
- var http = require('http'),
- config = require('./config'),
- fileHandler = require('./filehandler'),
- parse = require('url').parse,
- types = config.types,
- rootFolder = config.rootFolder,
- defaultIndex = config.defaultIndex,
- server;
+var http = require('http'),
+config = require('./config'),
+fileHandler = require('./filehandler'),
+parse = require('url').parse,
+types = config.types,
+rootFolder = config.rootFolder,
+defaultIndex = config.defaultIndex,
+server;
 
 module.exports = server = http.createServer();
+
+//var cornerstoneWADOImageLoader = require("cornerstone-wado-image-loader");
 
 server.on('request', onRequest);
 

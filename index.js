@@ -6,3 +6,8 @@ process.title = 'MyWebServer';
  webServer.listen(port, function() {
    console.log('Server started at port ' + port);
  });
+
+ //Require
+//var cornerstone = require("cornerstone-core");
+//var cornerstoneWADOImageLoader = require("cornerstone-wado-image-loader");
+//var cornerstoneWADOImageLoader = require("./static/script/");
